@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Twenty by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>AUV-IITB</title>
@@ -15,71 +11,9 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body class="index">
-	
-		<div id="page-wrapper">
-
-			<!-- Header -->
-				<header id="header" class="alt">
-					<h1 id="logo"><a href="index.html">AUV-IITB <span> Team IIT Bombay</span></a></h1>
-					<nav id="nav">
-						<ul>
-							<!--<li class="current"><a href="index.html">Home</a></li>-->
-							<li class="current"><a href="team.html">Team</a></li>
-							<li class="submenu">
-								<a href="#">AUVs</a>
-								
-								<ul>
-									<section id="navlong">
-									<div class="row">
-								
-									<li>
-										
-										<div class ="3u 3u(narrower)">
-										<a href="matsya1.html">
-										<h3></h3>Matsya 1.0</h3></a>
-										</div>
-										
-										
-									</li>
-									<li>	
-										<div class ="3u 3u(narrower)">
-										<a href="matsya2.html" >
-										<h3></h3>Matsya 2.0</h3></a>
-										</div>
-										
-										
-									</li>
-									<li>	
-										<div class ="3u 3u(narrower)">
-										<a href="matsya3.html">
-										<h3></h3>Matsya 3.0</h3></a>
-										</div>
-										
-										
-									</li>
-									<li>	
-										<div class ="3u 3u(narrower)">
-										<a href="matsya4.html">
-										<h3></h3>Matsya 4.0</h3></a>
-										</div>
-										
-										
-									</li>
-										
-								
-									</div>
-									</section>
-								</ul>
-							</li>	
-							
-							<li class="current"><a href="sub_divisions.html">SubDivisions</a></li>
-							<li class="current"><a href="contact.html">Our Advisors</a></li>
-							<li class="current"><a href="sponsors.html">Sponsors</a></li>
-							<li class="current"><a href="#">Blog</a></li>
-						</ul>
-						
-					</nav>
-				</header>
+		<div id="header_self">
+			
+		</div>
 
 			<!-- Banner -->
 				<section id="banner">
@@ -181,7 +115,7 @@
 										<p>makes things autonomous ......</p>
 									</section>
 								</div>	
-								<!--<div class="4u 8u(narrower)">
+								<div class="4u 8u(narrower)">
 									<section>
 										<span class="icon featured fa-envelope"></span>
 										<header>
@@ -189,7 +123,7 @@
 										</header>
 										<p>publicity ...what else</p>
 									</section>
-								</div>-->
+								</div>
 								
 							</div>
 						</section>
@@ -300,6 +234,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>
+				#(function(){
+					("#header_self").load('header.html');
+				});
+			</script>
 
 	</body>
 </html>
