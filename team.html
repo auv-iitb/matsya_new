@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Twenty by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Our Team</title>
@@ -18,46 +14,7 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="index.html">AUV-IITB <span>Team IIT bombay</span></a></h1>
-					<nav id="nav">
-						<ul>
-							
-							<li style="-moz-user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;" class="submenu opener">
-								<a href="#">auvs</a>
-								
-							<ul class="" style="-moz-user-select: none; display: none; position: absolute;">
-									<li style="white-space: nowrap;"><a style="display: block;" href="left-sidebar.html">matsya 1.0</a></li>
-									<li style="white-space: nowrap;"><a style="display: block;" href="right-sidebar.html">matsya 2.0</a></li>
-									<li style="white-space: nowrap;"><a style="display: block;" href="no-sidebar.html">matsya 3.0</a></li>
-									<li style="white-space: nowrap;"><a style="display: block;" href="contact.html">matsya 4.0</a></li>
-									
-								</ul></li>
-							
-							<!--<li style="-moz-user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;" class="submenu opener">
-								<a href="#">Layouts</a>
-								
-							<ul class="" style="-moz-user-select: none; display: none; position: absolute;">
-									<li style="white-space: nowrap;"><a style="display: block;" href="left-sidebar.html">Left Sidebar</a></li>
-									<li style="white-space: nowrap;"><a style="display: block;" href="right-sidebar.html">Right Sidebar</a></li>
-									<li style="white-space: nowrap;"><a style="display: block;" href="no-sidebar.html">No Sidebar</a></li>
-									<li style="white-space: nowrap;"><a style="display: block;" href="contact.html">Contact</a></li>
-									<li style="-moz-user-select: none; cursor: pointer; white-space: nowrap;" class="submenu opener">
-										<a style="display: block;" href="#">Submenu</a>
-										<ul class="dropotron" style="-moz-user-select: none; display: none; position: absolute;">
-											<li style="white-space: nowrap;"><a style="display: block;" href="#">Dolore Sed</a></li>
-											<li style="white-space: nowrap;"><a style="display: block;" href="#">Consequat</a></li>
-											<li style="white-space: nowrap;"><a style="display: block;" href="#">Lorem Magna</a></li>
-											<li style="white-space: nowrap;"><a style="display: block;" href="#">Sed Magna</a></li>
-											<li style="white-space: nowrap;"><a style="display: block;" href="#">Ipsum Nisl</a></li>
-										</ul>
-									</li>
-								</ul></li>-->
-							<li style="white-space: nowrap;"><a href="team.html">Team</a></li>
-							<li style="white-space: nowrap;"><a href="our_advisors.html">Our Advisors</a></li>
-							<li style="white-space: nowrap;"><a href="sponsors.html">Sponsors</a></li>
-						</ul>
-					</nav>
+				<header id="header_self">
 				</header>	
 				
 
@@ -239,16 +196,7 @@
 				</article>-->
 
 			<!-- Footer -->
-				<footer id="footer">
-
-					<ul class="icons">
-						<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-						<!--<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>-->
-						<li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
-						<!--<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>-->
-					</ul>
-
+				<footer id="footer_self">
 
 				</footer>
 
@@ -262,7 +210,13 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="assets/js/main.js">
+            </script>
+            			 $(function(){
+					$("#header_self").load('header.html');
+                    $("#footer_self").load('footer.html');
+				});
+			</script>
 
 	</body>
 </html>
