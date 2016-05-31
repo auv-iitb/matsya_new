@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>AUV-IITB</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollgress.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+		<script>
+			$(function(){
+				$("#header_self").load("header.html");
+				$("#footer_self").load("footer.html");
+			});
+		</script>
+		
+	</head>
+	
+	<body class="no-sidebar">
+		
+		<div id="page-wrapper">
+	  <!-- Header -->
+				<header id="header_self">
+				</header>
+				
+				<section id="banner">
+					<div class="inner">
+
+						<header>
+							<h2>Software</h2>
+						</header>
+						<p>
+							<strong>The software subdivision consisting of members across various fields of engineering<br>
+							posessing a common passion for programming, provides the vehicle its acumen along with the<br>
+							ability to integrate all system functions.</strong><br> 
+						</p>
+						<footer>
+							<ul class="buttons vertical">
+								<li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
+							</ul>
+						</footer>
+
+					</div>
+				</section>	
+				
+				<article id="main">
+
+					<header class="special container">
+					
+						<h2><strong>S</strong>oftware  <strong>S</strong>ubdivision <strong></h2>
+						<br>
+						<p>
+							
+							The software stack has been divided into the cognition,
+							firmware and driver layer and is extensively built on ROS(Robot Operating System),developed at
+							Willow Garage which operates to integrate the different layers and different independent
+							subsystems within each layer.
+							<br><br>
+							Cognition layer involves the mission planner, task state machine and the vision subsystem which
+							enable autonomous performance of tasks by integration of functions of various lower level
+							subsystems , and navigatsor and controller which control the motion of the vehicle.
+							Firmware layer consists of the software which operates on the beaglebone to control various
+							hardware components of the vehicle and enabling its communication with the Single Board
+							Computer via socket programming.
+							<br><br>
+							Driver Layer functions to collect data from a multitude of sensors used in the vehicle and
+							effectively communicate them to the cognition layer.
+						</p>
+						
+						
+					</header>
+				</article>
+				
+				
+		</div>
+		
+		
+	</body>
+</html>
